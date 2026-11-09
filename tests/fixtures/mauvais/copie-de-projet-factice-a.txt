@@ -1,0 +1,1 @@
+FIXTURE VOLONTAIREMENT MAUVAISE : seul le NOM de ce fichier est mauvais (un nom de projet).

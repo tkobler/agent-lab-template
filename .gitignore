@@ -1,0 +1,15 @@
+# Fichiers propres à la machine, générés par install.sh
+.claude/
+launchagents/
+config.env
+# Données de travail : clones des projets, copies de travail (worktrees), journaux
+data/
+# Repères d'état
+.night-running
+.now-running
+.manager-session
+.review-done
+.DS_Store
+.obsidian/workspace*.json
+__pycache__/
+*.pyc

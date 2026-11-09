@@ -1,0 +1,47 @@
+{
+  "permissions": {
+    "defaultMode": "auto",
+    "allow": [
+      "Read(@RACINE_PERM@/**)",
+      "Edit(@LAB_PERM@/config/TASKS.md)",
+      "Edit(@LAB_PERM@/config/NOW.md)",
+      "Edit(@LAB_PERM@/memory/**)",
+      "Bash(git -C * log*)",
+      "Bash(git -C * diff*)",
+      "Bash(git -C * show*)",
+      "Bash(git -C * status*)",
+      "Bash(git -C * branch*)",
+      "Bash(git -C * stash list*)",
+      "Bash(ls *)",
+      "Bash(tail *)",
+      "Bash(find reports *)",
+      "Bash(touch .review-done)",
+      "Bash(launchctl list*)",
+      "Bash(launchctl print*)",
+      "Bash(tmux ls*)",
+      "Bash(gh pr list*)",
+      "Bash(gh pr view*)",
+      "Bash(gh repo view*)",
+      "Bash(gh auth status*)",
+      "Bash(scripts/night.sh * --check)",
+      "Bash(scripts/run-now.sh)",
+      "Bash(scripts/direct-session.sh *)"
+    ],
+    "deny": [
+      "Edit(@PROJETS_PERM@/**)",
+      "Edit(@WORKTREES_PERM@/**)",
+      "Bash(git push*)",
+      "Bash(git -C * push*)",
+      "Bash(git -C * commit*)",
+      "Bash(git -C * reset*)",
+      "Bash(git -C * merge*)",
+      "Bash(gh pr merge*)",
+      "Bash(gh repo delete*)",
+      "Bash(gh repo archive*)",
+      "Bash(gh api -X DELETE*)",
+      "Bash(gh api --method DELETE*)",
+      "Bash(rm -rf*)",
+      "Bash(sudo *)"
+    ]
+  }
+}

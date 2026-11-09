@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>@PREFIXE_LAUNCHAGENT@.manager</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>@BREW_BIN@/tmux</string>
+    <string>new-session</string>
+    <string>-d</string>
+    <string>-s</string>
+    <string>manager</string>
+    <string>@LAB@/scripts/manager.sh</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>AbandonProcessGroup</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>@LOGS@/launchd-manager.log</string>
+  <key>StandardErrorPath</key>
+  <string>@LOGS@/launchd-manager.log</string>
+</dict>
+</plist>

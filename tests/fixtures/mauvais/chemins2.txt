@@ -1,0 +1,8 @@
+FIXTURE VOLONTAIREMENT MAUVAISE : chemins d'exemple, aucune valeur réelle.
+dossier linux : /home/exemple
+racine : /root
+disque : /Volumes/DisqueExemple/donnees
+temporaire macOS : /private/var/folders/xx/yy
+brew : /usr/local/Cellar/bash/5.2
+windows : C:\Users\exemple\Documents
+fin de ligne : cd /Users
